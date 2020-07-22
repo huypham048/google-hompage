@@ -13,32 +13,37 @@ html {
     margin: 0 20px 0 10px;
 }
 
-#about{
+#about {
     grid-area: about;
     justify-self: center;
     align-self: center;
 
 }
-#store{
+
+#store {
     grid-area: store;
     justify-self: center;
     align-self: center;
 }
-#gmail{
+
+#gmail {
     grid-area: gmail;
     justify-self: center;
     align-self: center;
 }
-#images{
+
+#images {
     grid-area: images;
     justify-self: center;
     align-self: center;
 }
+
 #menu {
     grid-area: menu;
     justify-self: center;
     align-self: center;
 }
+
 #sign-in {
     grid-area: sign-in; 
     justify-self: center;
@@ -76,12 +81,13 @@ a:hover {
     ". google-text .";
 }
 
-#logo{
+#logo {
     grid-area: logo;
     justify-self: center;
     align-self: end;
 }   
-#search{    
+
+#search {    
     grid-area:search;
     height: 30px;
     align-self: center;
@@ -96,14 +102,16 @@ a:hover {
 #search:hover {
         box-shadow: 1px 1px 5px grey;
 }
-#google-search-btn{
+
+#google-search-btn {
     border: none;
     padding: 9px 15px 9px 15px;
     margin-right: 10px;
     border-radius: 3px;
     color: #5F6368
 }
-#random-search-btn{
+
+#random-search-btn {
     border: none;
     padding: 9px 15px 9px 15px;
     margin-right: 10px;
@@ -114,7 +122,8 @@ a:hover {
 #google-search-btn:hover, #random-search-btn:hover {
     border: 1px solid rgba(44, 43, 43, 0.301);
 }
-#google-text{
+
+#google-text {
     grid-area: google-text;
     justify-self: center;
 }
@@ -129,6 +138,7 @@ a:hover {
 #vietnamese {
     color: blue;
 }
+
 /* Footer Section */
 #footer {
     background-color: #f2f2f2;
@@ -143,32 +153,37 @@ a:hover {
     "advertising business hsw . privacy terms settings";
 }
 
-#advertising{
+#advertising {
     grid-area: advertising;
     justify-self: center;
     align-self: center;
 }
-#business{
+
+#business {
     grid-area: business;
     justify-self: center;
     align-self: center;
 }
-#hsw{
+
+#hsw {
     grid-area: hsw; 
     justify-self: center;
     align-self: center;
 }
-#privacy{
+
+#privacy {
     grid-area: privacy;
     justify-self: center;
     align-self: center;
 }
-#terms{
+
+#terms {
     grid-area: terms;
     justify-self: center;
     align-self: center;
 }
-#settings{
+ 
+#settings 
     grid-area: settings;
     justify-self: center;
     align-self: center;
