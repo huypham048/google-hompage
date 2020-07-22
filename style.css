@@ -183,7 +183,7 @@ a:hover {
     align-self: center;
 }
  
-#settings 
+#settings {
     grid-area: settings;
     justify-self: center;
     align-self: center;
